@@ -15,9 +15,9 @@ function fgets_u($pStdn)
     }
 }
 
-$nickname = "Cindy Vandenberghe";
-$sender = 	"32483521298"; // Mobile number with country code (but without + or 00)
-$imei = 	"98:D6:BB:BE:FF:08"; // MAC Address for iOS IMEI for other platform (Android/etc)
+$nickname = "WhatsAPI Test";
+$sender = 	""; // Mobile number with country code (but without + or 00)
+$imei = 	""; // MAC Address for iOS IMEI for other platform (Android/etc)
 
 $countrycode = substr($sender, 0, 2);
 $phonenumber=substr($sender, 2);
